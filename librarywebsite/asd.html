@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("button").click(function () {
+          $(this).hide();
+          //$("p").hide();
+          //$("#test").hide();
+          //$(".test").hide();
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <p>This is a paragraph.</p>
+    <p>This is another paragraph.</p>
+    <p id="test">This is another paragraph with id.</p>
+    <p class="test">This is another paragraph with class.</p>
+    <button>Click me to hide paragraphs</button>
+  </body>
+</html>
